@@ -1,0 +1,58 @@
+* {
+    background-image: url(../Imagenes/fondo.jpg);
+}
+/*1. Los `<h1>` deberan de contener un borde de 1px, solido, de color negro, el color de la fuente debera de ser rgb(10,205,124) y el color de fondo blueviolet*/
+h1{
+    border: 1px solid black;
+    background-color:blueviolet;
+    color: rgb(10,205,124);
+    
+}
+/*2. Los `<h2>` deberan de contener un borde de 1px,solido, de color negro, el color de la fuente debera de ser rgb(10,205,124) y el color de fondo blueviolet, ademas el texto debera de esta alineado al centro*/
+h2{
+    border: 1px solid black;
+    color: rgb(10,205,124);
+    background-color: blueviolet;
+    text-align: center;
+}
+/*3. Los `<h3>` usara el color rgb(10,205,124)*/
+h3{
+    color: rgb(10,205,124);
+}
+/*4. El `<body>` contendra un relleno del 15%, el color de la letra sera blanco y la fuente de la letra sera "fantasy".*/
+body{
+    padding: 15%;
+    color:white;
+    font-family:fantasy;
+}
+/*5. Los `<ul>` usaran 16px para el tamaño de la fuente, el "line-height" sera de 2 y el espacio entre letras sera de 1px*/
+ul{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+/*6. La clase "redes" usara la fuente de letra "fantasy" y usara el color rgb(10,205,124)*/
+.redes{
+    font-family: fantasy;
+    color: rgb(10,205,124);
+}
+/*7. La clase "titulo" se alineara el texto al centro y usara el color rgb(10,205,124)*/
+.titulo{
+    text-align: center;
+    color:rgb(10,205,124);
+}
+/*8. El elemento `<table>` utilizara el border-collapse: collapse; y tendra un relleno del 100%*/
+.table{
+    border-collapse: collapse;
+    padding: 100%;
+}
+/*Los elementos `<th>` y `<td>` se alineara el texto a la derecha y el relleno sera de 8px*/
+th,td{
+    text-align: right;
+    padding: 8px;
+}
+/* 10. Ademas el elemento `<th>` usara el color de fondo "#4CAF50" y el color de la fuente es blueviolet*/
+th{
+    background-color: #4CAF50;
+    color:blueviolet;
+}
